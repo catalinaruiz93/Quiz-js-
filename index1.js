@@ -13,3 +13,22 @@ switch (tipomotor) {
     default: document.write("No existe un valor válido para tipo de bomba");
     break;
 }
+
+
+function obtenervalorconimpuesto (valorsinimpuesto ,producto) {
+ console.log (valorsinimpuesto + producto);    
+}
+  
+var args = [1, 2, 3];
+obtenervalorconimpuesto.apply (null, args.concat(4));
+ const obtenervalorconimpuesto = (valorsinimpuesto, producto) =>
+ {
+     console.log (valorsinimpuesto + producto);
+
+ };
+ let args = [ 1, 2, 3];
+ obtenervalorconimpuesto(...args, 3)
+
+
+
+
