@@ -20,14 +20,15 @@ function obtenervalorconimpuesto (valorsinimpuesto ,producto) {
 }
   
 var args = [1, 2, 3];
-obtenervalorconimpuesto.apply (null, args.concat(4));
- const obtenervalorconimpuesto = (valorsinimpuesto, producto) =>
+obtenervalorconimpuesto.apply (null, args.concat(3));
+ const obtenervalorconimpuesto1 = (valorsinimpuesto, producto) =>
  {
      console.log (valorsinimpuesto + producto);
 
  };
- let args = [ 1, 2, 3];
+ let args1 = [ 21, 10 , 3];
  obtenervalorconimpuesto(...args, 3)
+ alert( 'El valor sin impuestos'  * 'precio' + ' producto')
 
 
 
